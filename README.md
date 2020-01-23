@@ -1,5 +1,5 @@
 # -Computational-Methods-and-Applications
-
+## Matlab functions which were coded as a part of the AMS 147 (Computational-Methods-and-Applications) class.   
 **compute_factorial.m** - takes an integer number as input and returns the factorial without using the built in factorial function.<br /> 
 **compute_Euclidean_norm.m** - computes the Euclidean norm for an arbitary input vector x.  <br />
 **matrix_times vector.m** - computes the product between an n-dimensional square matrix and an n-dimensional column vector<br />
