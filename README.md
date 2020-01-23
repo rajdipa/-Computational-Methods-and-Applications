@@ -15,4 +15,9 @@
 **int_midpoint_rule.m** - takes in a function(f) and integrations interval and implements composite midpoint rule to compute the numerical approximation of Integration of f. <br /> 
 **int_trapezoidal_rule.m** - takes in a function(f) and integrations interval and implements composite trapezoidal rule rule to compute the numerical approximation of Integration of f.<br />
 **int_Simpson_rule.m** - takes in a function(f) and integrations interval and implements composite Simpson rule rule to compute the numerical approximation of Integration of f.<br />
-**test_integration.m** - 
+**test_integration.m** - uses int_midpoint_rule.m, int_trapezoidal_rule.m, int_Simpson_rule.m to compute the numerical integration of a function and plots the integrard function and the errors of the three methods. <br />
+**backwardsub.m** - returns the numerical solution to the upper triangular system of equations by using the backward substitution algorithm. <br />
+**tridiagsolver.m** -  implements the Thomas algorithm to solve tridiagonal linearsystems of equations <br />
+**matrixinverse.m** - implements the Leverrier algorithm to calculate the inverse of an n×n matrix A. <br />
+**AB2.m** - computes the numerical solution of a initial value problem for an n-dimensional system of ordinary differential equations by using the two-step Adams-Bashforth (AB2) scheme. returns the matrix collecting the time snapshots of the solution and a vector collecting the time instants at which the solution is saved in the output matrix <br />
+**solve_ODE_system.m** - solves a three-dimensional nonlinear dynamical system by using AB2.m <br />
